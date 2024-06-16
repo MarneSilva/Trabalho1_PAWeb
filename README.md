@@ -10,7 +10,7 @@ Criado por:
 Para instalar as pendências do projeto e garantir que os códigos funcionem da maneira que foram projetados, baixe os arquivos do repositório e bote em uma pasta vazia.
 Encaminhe-se para essa pasta por meio do comando "cd" no terminal de sua IDE selecionada:
 
-Ex: cd ./Trabalho1_web/dositio-class/
+Ex: cd ./Trabalho1_PAWeb/dositio-class/
 
 Em seguida, com o diretório já selecionado, execute o comando de instalação do Node Package Module (npm):
 
@@ -32,10 +32,6 @@ Feito isso, agora precisamos executar o comando do script "dev", instalado junto
 Ex: npm run dev
 
 Este comando deve garantir que o servidor esteja na rede local. Caso tenha sucedido, mostrará um log de onde o servidor está hospedado, em letras azuis, no terminal.
-### Rodando o script de testes unitários
-Para rodar o script de teste unitário, analogamente ao script instalado "dev", apenas execute o mesmo comando, mas desta vez trocando o "dev" por "test".
-
-Ex: npm run test
 
 ###OBS:
 É importante que você tenha o MongoDB instalado, assim como o MongoDBCompass, para observar as gravações e a configuração do banco de dados o qual o servidor se conecta.
